@@ -30,10 +30,10 @@ android {
 
     signingConfigs {
         release {
-            keyAlias 'DeferredComponents'
-            keyPassword 'DeferredComponents'
-            storeFile file('D:/FlutterProject/KeyStore/DeferredComponents.jks')
-            storePassword 'DeferredComponents'
+            storeFile file('../../../../../../.android/debug.keystore') // ~/.android/debug.keystore
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storePassword 'android'
         }
     }
 
